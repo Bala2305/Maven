@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Parameter">
+  
+  <parameter name="username" value="Bala2305"></parameter>
+   <parameter name="password" value="12345"></parameter>
+  
+  
+  <classes>
+  <class name="com.testng.feature.ParameterPractice"></class>
+  
+  </classes>
+  </test> <!-- Parameter -->
+</suite> <!-- Suite -->
